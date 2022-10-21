@@ -1,0 +1,27 @@
+.porftolio-container {
+    padding: var(--page-padding);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--gap);
+}
+
+.portfolio-projects-frame img {
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+}
+
+.portfolio-projects-frame img:hover {
+    filter: brightness(.8);
+}
+
+.portfolio-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--gap);
+    justify-items: center;
+}
