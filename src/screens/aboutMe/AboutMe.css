@@ -4,6 +4,7 @@
     gap: var(--gap);
     justify-content: center;
     align-items: center;
+    background-color: var(--dark-accent);
 }
 
 .aboutMe-container img {
@@ -11,5 +12,9 @@
     max-height: 300px;
     height: auto;
     border-radius: 50%;
-    box-shadow: 4px 5px 12px rgba(0,0,0,.7);
+    box-shadow: 4px 5px 12px rgba(0, 0, 0, 0.7);
+}
+
+.aboutMe-container div p {
+    font-size: 1.2rem;
 }

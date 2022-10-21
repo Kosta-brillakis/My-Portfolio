@@ -22,7 +22,7 @@ function Portfolio() {
 
   return (
     <div id="portfolio" className="portfolio-container">
-    <h1>Portfolio</h1>
+    <h1 className="fancy">Portfolio</h1>
     <p>
         This is my github page <a href="https://www.google.com" target="blank" rel="nonreferrer"> https://github.com/Kosta-brillakis</a>
     </p>
