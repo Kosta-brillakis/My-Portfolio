@@ -40,3 +40,9 @@
         max-width: 80%;
     }
 }
+
+@media screen and (max-height: 680px) {
+    .modal-content img {
+      height: 200px;
+    }
+  }
