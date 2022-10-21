@@ -41,7 +41,7 @@
     }
 }
 
-@media screen and (max-height: 680px) {
+@media screen and (max-height: 737px) {
     .modal-content img {
       height: 200px;
     }
