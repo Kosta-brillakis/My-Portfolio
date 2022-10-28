@@ -105,3 +105,12 @@ html {
     flex-direction: column;
   }
 }
+
+@media screen and (max-width: 416px) {
+  body .portfolio-projects-frame img {
+    width: 300px;
+  }
+  body .portfolio-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
