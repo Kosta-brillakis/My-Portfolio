@@ -108,9 +108,9 @@ html {
 
 @media screen and (max-width: 416px) {
   body .portfolio-projects-frame img {
-    width: 320px;
+    width: 330px;
   }
   body .portfolio-grid {
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
   }
 }
