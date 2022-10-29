@@ -5,6 +5,7 @@
   align-items: center;
   gap: var(--gap);
   background-color: var(--dark-accent);
+  flex-wrap: wrap;
 }
 
 .portfolio-container p {
