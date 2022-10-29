@@ -3,18 +3,19 @@ import "./Landing.css";
 
 let msgArray = [
   "",
+  "What am I?",
+  "I am a...",
   "Software Engineer",
   "Fullstack web developer",
   "MERN expert",
-  "Professional",
-  "",
+  "Professional"
 ];
 
 function Landing() {
   return (
     <AnimatedBackground>
       <div className="landing-type">
-        <div>What am I?</div>
+        <div>Welcome</div>
         <Typewriter data={msgArray} />
       </div>
       

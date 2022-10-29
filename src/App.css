@@ -113,4 +113,7 @@ html {
   body .portfolio-grid {
     grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
   }
+  body .portfolio-container {
+    padding: 1.2rem .6rem;
+  }
 }
