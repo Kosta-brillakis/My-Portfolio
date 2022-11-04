@@ -6,6 +6,7 @@ import mongodb from "./svgs/mongodb.svg"
 import css from "./svgs/css.svg"
 import html from "./svgs/html.svg"
 import git from "./svgs/git.svg"
+import tailwind from "./svgs/tailwind.svg"
 
 export const techs = [
     {name: "Javascript", image: js},
@@ -16,4 +17,5 @@ export const techs = [
     {name: "CSS", image: css},
     {name: "HTML", image: html},
     {name: "Git", image: git},
+    {name: "Tailwind", image: tailwind}
 ]
