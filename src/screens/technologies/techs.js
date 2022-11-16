@@ -7,15 +7,17 @@ import css from "./svgs/css.svg"
 import html from "./svgs/html.svg"
 import git from "./svgs/git.svg"
 import tailwind from "./svgs/tailwind.svg"
+import next from "./svgs/next.svg"
 
 export const techs = [
     {name: "Javascript", image: js},
     {name: "React", image: react},
     {name: "Node", image: node},
+    {name: "Next.js", image: next},
     {name: "Express", image: express},
     {name: "Mongodb", image: mongodb},
     {name: "CSS", image: css},
     {name: "HTML", image: html},
     {name: "Git", image: git},
-    {name: "Tailwind", image: tailwind}
+    {name: "Tailwind CSS", image: tailwind}
 ]
